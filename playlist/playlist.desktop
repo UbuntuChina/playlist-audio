@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=playlist
+Exec=qmlscene %U playlist/Main.qml
+Icon=playlist/playlist.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

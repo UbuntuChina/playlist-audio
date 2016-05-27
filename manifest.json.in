@@ -1,0 +1,15 @@
+{
+    "name": "playlist.liu-xiao-guo",
+    "description": "description of playlist",
+    "architecture": "@CLICK_ARCH@",
+    "title": "playlist",
+    "hooks": {
+        "playlist": {
+            "apparmor": "playlist/playlist.apparmor",
+            "desktop": "playlist/playlist.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework": "ubuntu-sdk-15.04.4"
+}
