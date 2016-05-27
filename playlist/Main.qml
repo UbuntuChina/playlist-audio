@@ -66,9 +66,9 @@ MainView {
                     height: page.height/2
 
                     model: playlist;
-                    delegate: Label {
-                        fontSize: "x-large"
-                        text: {
+                    delegate: FileListItem {
+//                        fontSize: "x-large"
+                        title.text: {
                             var filename = String(source);
                             var name = filename.split("/").pop();
                             return name;
